@@ -3,6 +3,7 @@ package day1
 import java.io.File
 
 fun main() {
+
     val input = readFileAsLinesUsingReadLines("src/day1/input")
     println(partOne(input))
     println(parTwo(input))
